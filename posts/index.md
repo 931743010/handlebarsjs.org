@@ -12,7 +12,7 @@ _PAGEDATA-->
 
 <div id="intro">
 
-你可以使用 Handlebars 轻松的创建语义化模板。  
+你可以使用 Handlebars 轻松的创建语义化模板。
 Handlebars 兼容 Mustache 模板。你可以在 Handlebars 中直接使用 Mustache 模板。
 
 </div>
@@ -23,9 +23,9 @@ Handlebars 兼容 Mustache 模板。你可以在 Handlebars 中直接使用 Must
 ---------------
 
 <!---<dic class="contents">--><!-- Start .contents-->
-  
+
 Handlebars 模板看起来很像 HTML ，Handlebars 表达式嵌入在 HTML 中。
-  
+
 ```html
 <div class="entry">
   <h1>{{title}}</h1>
@@ -156,9 +156,9 @@ Handlebars.registerHelper('link', function(text, url) {
 块表达式
 -------
 
-块表达式允许你定义helper，用不同的数据上下文（context）调用一段模板。下面我们定义一个生成列表的helper：
+块表达式允许你定义 helper，用不同的数据上下文（context）调用一段模板。下面我们定义一个生成列表的helper：
 
-快表达式允许你自定义 helper，使用当前传入参数作为上下文调用模板。
+块表达式允许你自定义 helper，使用当前传入参数作为上下文调用模板。
 
 创建一个用于生产列表的快表达式
 
@@ -178,7 +178,7 @@ Handlebars.registerHelper('link', function(text, url) {
 }
 ```
 
-we would create a helper named `list` to generate our HTML list. The helper receives the `people` as its first parameter, and an options hash as its second parameter. The options hash contains a property named `fn`, which you can invoke with a context just as you would invoke a normal Handlebars template.
+我们会创建一个叫 `list` 的 helper 去生成我们的 HTML 列表。这个 helper 接收两个参数，第一个是 `people`，第二个是一个哈希参数（options hash）。这个哈希参数包含一个名为 `fn` 的属性，使得你可以像调用一个普通的 Handlebars 模板一样调用一个上下文（context）。
 
 ```js
 Handlebars.registerHelper('list', function(items, options) {
@@ -192,7 +192,7 @@ Handlebars.registerHelper('list', function(items, options) {
 });
 ```
 
-When executed, the template will render:
+当被执行时，这个模板会渲染成：
 
 ```html
 <ul>
@@ -206,7 +206,7 @@ Block helpers have more features, such as the ability to create an else section 
 
 Since the contents of a block helper are escaped when you call `options.fn(context)`, Handlebars does not escape the results of a block helper. If it did, inner content would be double-escaped!
 
-<a href="block_helpers.md" class="more-info">Learn More: Block Helpers</a>
+<a href="block_helpers.md" class="more-info">高级教程：Block Helpers</a>
 
 Handlebars Paths
 ----------------

@@ -22,7 +22,8 @@
         
 <div id="intro">
 
-<p>&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; Handlebars &#x8F7B;&#x677E;&#x7684;&#x521B;&#x5EFA;&#x8BED;&#x4E49;&#x5316;&#x6A21;&#x677F;&#x3002;<br>Handlebars &#x517C;&#x5BB9; Mustache &#x6A21;&#x677F;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x5728; Handlebars &#x4E2D;&#x76F4;&#x63A5;&#x4F7F;&#x7528; Mustache &#x6A21;&#x677F;&#x3002;</p>
+<p>&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; Handlebars &#x8F7B;&#x677E;&#x7684;&#x521B;&#x5EFA;&#x8BED;&#x4E49;&#x5316;&#x6A21;&#x677F;&#x3002;
+Handlebars &#x517C;&#x5BB9; Mustache &#x6A21;&#x677F;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x5728; Handlebars &#x4E2D;&#x76F4;&#x63A5;&#x4F7F;&#x7528; Mustache &#x6A21;&#x677F;&#x3002;</p>
 <p></p></div>
 <a class="download" href="http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars-v3.0.1.js" target="_blank">Download: 3.0.1</a>
 <a class="download-runtime" href="http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars.runtime-v3.0.1.js" target="_blank">Download: runtime-3.0.1</a><p></p>
@@ -114,8 +115,8 @@
 <p><code>new Handlebars.SafeString()</code> &#x4F1A;&#x6807;&#x8BC6;&#x4F20;&#x5165;&#x53C2;&#x6570;&#x662F;&#x201C;&#x5B89;&#x5168;&#x7684;&#x201D;&#xFF0C;&#x6240;&#x4EE5;&#x5373;&#x4F7F;&#x4F60;&#x4E0D;&#x4F7F;&#x7528; <code>{{{</code> &#x3002;Handlebars &#x4E5F;&#x4E0D;&#x4F1A;&#x8F6C;&#x4E49;&#x3002;</p>
 <p><a href="demo/SafeString.html" target="_blank">&#x793A;&#x4F8B;</a></p>
 <h2>&#x5757;&#x8868;&#x8FBE;&#x5F0F;</h2>
-<p>&#x5757;&#x8868;&#x8FBE;&#x5F0F;&#x5141;&#x8BB8;&#x4F60;&#x5B9A;&#x4E49;helper&#xFF0C;&#x7528;&#x4E0D;&#x540C;&#x7684;&#x6570;&#x636E;&#x4E0A;&#x4E0B;&#x6587;&#xFF08;context&#xFF09;&#x8C03;&#x7528;&#x4E00;&#x6BB5;&#x6A21;&#x677F;&#x3002;&#x4E0B;&#x9762;&#x6211;&#x4EEC;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x751F;&#x6210;&#x5217;&#x8868;&#x7684;helper&#xFF1A;</p>
-<p>&#x5FEB;&#x8868;&#x8FBE;&#x5F0F;&#x5141;&#x8BB8;&#x4F60;&#x81EA;&#x5B9A;&#x4E49; helper&#xFF0C;&#x4F7F;&#x7528;&#x5F53;&#x524D;&#x4F20;&#x5165;&#x53C2;&#x6570;&#x4F5C;&#x4E3A;&#x4E0A;&#x4E0B;&#x6587;&#x8C03;&#x7528;&#x6A21;&#x677F;&#x3002;</p>
+<p>&#x5757;&#x8868;&#x8FBE;&#x5F0F;&#x5141;&#x8BB8;&#x4F60;&#x5B9A;&#x4E49; helper&#xFF0C;&#x7528;&#x4E0D;&#x540C;&#x7684;&#x6570;&#x636E;&#x4E0A;&#x4E0B;&#x6587;&#xFF08;context&#xFF09;&#x8C03;&#x7528;&#x4E00;&#x6BB5;&#x6A21;&#x677F;&#x3002;&#x4E0B;&#x9762;&#x6211;&#x4EEC;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x751F;&#x6210;&#x5217;&#x8868;&#x7684;helper&#xFF1A;</p>
+<p>&#x5757;&#x8868;&#x8FBE;&#x5F0F;&#x5141;&#x8BB8;&#x4F60;&#x81EA;&#x5B9A;&#x4E49; helper&#xFF0C;&#x4F7F;&#x7528;&#x5F53;&#x524D;&#x4F20;&#x5165;&#x53C2;&#x6570;&#x4F5C;&#x4E3A;&#x4E0A;&#x4E0B;&#x6587;&#x8C03;&#x7528;&#x6A21;&#x677F;&#x3002;</p>
 <p>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x7528;&#x4E8E;&#x751F;&#x4EA7;&#x5217;&#x8868;&#x7684;&#x5FEB;&#x8868;&#x8FBE;&#x5F0F;</p>
 <pre><code><span class="hljs-collection">{<span class="hljs-collection">{#list people}</span>}</span><span class="hljs-collection">{<span class="hljs-collection">{firstName}</span>}</span> <span class="hljs-collection">{<span class="hljs-collection">{lastName}</span>}</span><span class="hljs-collection">{<span class="hljs-collection">{/list}</span>}</span>
 </code></pre><p>&#x6E32;&#x67D3;&#x6570;&#x636E;&#x5982;&#x4E0B;&#x6240;&#x793A;&#xFF1A;</p>
@@ -127,7 +128,7 @@
   ]
 }
 </code></pre>
-<p>we would create a helper named <code>list</code> to generate our HTML list. The helper receives the <code>people</code> as its first parameter, and an options hash as its second parameter. The options hash contains a property named <code>fn</code>, which you can invoke with a context just as you would invoke a normal Handlebars template.</p>
+<p>&#x6211;&#x4EEC;&#x4F1A;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x53EB; <code>list</code> &#x7684; helper &#x53BB;&#x751F;&#x6210;&#x6211;&#x4EEC;&#x7684; HTML &#x5217;&#x8868;&#x3002;&#x8FD9;&#x4E2A; helper &#x63A5;&#x6536;&#x4E24;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x7B2C;&#x4E00;&#x4E2A;&#x662F; <code>people</code>&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x662F;&#x4E00;&#x4E2A;&#x54C8;&#x5E0C;&#x53C2;&#x6570;&#xFF08;options hash&#xFF09;&#x3002;&#x8FD9;&#x4E2A;&#x54C8;&#x5E0C;&#x53C2;&#x6570;&#x5305;&#x542B;&#x4E00;&#x4E2A;&#x540D;&#x4E3A; <code>fn</code> &#x7684;&#x5C5E;&#x6027;&#xFF0C;&#x4F7F;&#x5F97;&#x4F60;&#x53EF;&#x4EE5;&#x50CF;&#x8C03;&#x7528;&#x4E00;&#x4E2A;&#x666E;&#x901A;&#x7684; Handlebars &#x6A21;&#x677F;&#x4E00;&#x6837;&#x8C03;&#x7528;&#x4E00;&#x4E2A;&#x4E0A;&#x4E0B;&#x6587;&#xFF08;context&#xFF09;&#x3002;</p>
 <pre><code class="lang-js">Handlebars.registerHelper(&apos;<span class="hljs-keyword">list</span>&apos;, function(items, options) {
   <span class="hljs-keyword">var</span> <span class="hljs-keyword">out</span> = <span class="hljs-string">&quot;&lt;ul&gt;&quot;</span>;
 
@@ -138,7 +139,7 @@
   <span class="hljs-keyword">return</span> <span class="hljs-keyword">out</span> + <span class="hljs-string">&quot;&lt;/ul&gt;&quot;</span>;
 });
 </code></pre>
-<p>When executed, the template will render:</p>
+<p>&#x5F53;&#x88AB;&#x6267;&#x884C;&#x65F6;&#xFF0C;&#x8FD9;&#x4E2A;&#x6A21;&#x677F;&#x4F1A;&#x6E32;&#x67D3;&#x6210;&#xFF1A;</p>
 <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">ul</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span>Yehuda Katz<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span>Carl Lerche<span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
@@ -147,7 +148,7 @@
 </code></pre>
 <p>Block helpers have more features, such as the ability to create an else section (used, for instance, by the built-in if helper).</p>
 <p>Since the contents of a block helper are escaped when you call <code>options.fn(context)</code>, Handlebars does not escape the results of a block helper. If it did, inner content would be double-escaped!</p>
-<p><a href="block_helpers.html" class="more-info" target="_blank">Learn More: Block Helpers</a></p>
+<p><a href="block_helpers.html" class="more-info" target="_blank">&#x9AD8;&#x7EA7;&#x6559;&#x7A0B;&#xFF1A;Block Helpers</a></p>
 <h2>Handlebars Paths</h2>
 <p>Handlebars supports simple paths, just like Mustache.</p>
 <pre><code class="lang-html"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span></span><span class="hljs-expression">{{<span class="hljs-variable">name</span>}}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span></span>
@@ -217,17 +218,17 @@
 <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></span>
 </code></pre>
 <p>when using this context and helpers:</p>
-<pre><code class="lang-js"><span class="hljs-keyword">var</span> context = {
+<pre><code class="lang-js">var context = {
   author: {firstName: <span class="hljs-string">&quot;Alan&quot;</span>, lastName: <span class="hljs-string">&quot;Johnson&quot;</span>},
   body: <span class="hljs-string">&quot;I Love Handlebars&quot;</span>,
-  comments: [{
-    author: {firstName: <span class="hljs-string">&quot;Yehuda&quot;</span>, lastName: <span class="hljs-string">&quot;Katz&quot;</span>},
-    body: <span class="hljs-string">&quot;Me too!&quot;</span>
-  }]
+  comments: <span class="hljs-comment">[{
+    author: {firstName: &quot;Yehuda&quot;, lastName: &quot;Katz&quot;},
+    body: &quot;Me too!&quot;
+  }]</span>
 };
 
-Handlebars.registerHelper(<span class="hljs-string">&apos;fullName&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(person)</span> </span>{
-  <span class="hljs-keyword">return</span> person.firstName + <span class="hljs-string">&quot; &quot;</span> + person.lastName;
+Handlebars.registerHelper(&apos;fullName&apos;, function(<span class="hljs-keyword">person</span>) {
+  return <span class="hljs-keyword">person</span>.firstName + <span class="hljs-string">&quot; &quot;</span> + <span class="hljs-keyword">person</span>.lastName;
 });
 </code></pre>
 <p>results in:</p>
